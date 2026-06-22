@@ -1,0 +1,9 @@
+venv/
+*.sqlite3
+__pycache__/
+.env
+.vscode/
+local_settings.py
+data.json
+media/
+media_backup/
