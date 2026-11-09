@@ -34,6 +34,7 @@ INSTALLED_APPS = [
 
     'products',
     'users',
+    'payments',
     'pymysql',
     'mozilla_django_oidc',
 ]
@@ -165,8 +166,8 @@ OIDC_OP_JWKS_ENDPOINT = "http://localhost:8080/realms/Ecommerce-Realm/protocol/o
 OIDC_RP_SIGN_ALGO = "RS256"
 
 
-LOGIN_REDIRECT_URL = "/products/"
-LOGOUT_REDIRECT_URL ="/products/" 
+LOGIN_REDIRECT_URL = "/api/products/"
+LOGOUT_REDIRECT_URL ="/api/products/" 
 
 
 

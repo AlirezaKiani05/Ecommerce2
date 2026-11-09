@@ -7,3 +7,11 @@ local_settings.py
 data.json
 media/
 media_backup/
+# local
+.postman/
+postman/
+# keycloacl install
+Java.Development.Kit.17.0.2.x64_YasDL.com.rar
+Java.Development.Kit.17.0.2.x64_YasDL.com/
+keycloak-26.6.3.zip
+keycloak-26.6.3/

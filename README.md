@@ -54,8 +54,8 @@ Create a Client (e.g., django-client) with Client Protocol set to openid-connect
 Set Valid Redirect URIs to http://127.0.0.1:8000/* (or your Django local port).
 In Client Scopes, add a User Attribute Mapper for phone_number to ensure it is sent within the ID Token.
 (Optional) Add a custom Regex Validator (^98\d{10}$) for the phone_number user attribute in Keycloak.
-Step 2: Set Up Django (Backend)
-Clone the Repository:
+####  Step 2: Set Up Django (Backend)
+1. ** Clone the Repository**:
 bash
    git clone https://github.com/USERNAME/REPO_NAME.git
    cd REPO_NAME
